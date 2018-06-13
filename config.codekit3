@@ -41,6 +41,16 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/reset-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/reset-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/reset.css": {
 		"aP": 1,
 		"bl": 0,
@@ -48,6 +58,115 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/reset-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/resources\/cust_bershka.png": {
+		"ft": 32768,
+		"iS": 77801,
+		"oA": 0,
+		"oAP": "\/resources\/cust_bershka.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/cust_instacart.png": {
+		"ft": 32768,
+		"iS": 157792,
+		"oA": 0,
+		"oAP": "\/resources\/cust_instacart.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/cust_kraken.png": {
+		"ft": 32768,
+		"iS": 10854,
+		"oA": 0,
+		"oAP": "\/resources\/cust_kraken.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/cust_microsoft.png": {
+		"ft": 32768,
+		"iS": 18234,
+		"oA": 0,
+		"oAP": "\/resources\/cust_microsoft.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/cust_samsung.png": {
+		"ft": 32768,
+		"iS": 28547,
+		"oA": 0,
+		"oAP": "\/resources\/cust_samsung.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/fixer_code.png": {
+		"ft": 32768,
+		"iS": 204819,
+		"oA": 0,
+		"oAP": "\/resources\/fixer_code.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/fixer_hero.png": {
+		"ft": 32768,
+		"iS": 42958,
+		"oA": 0,
+		"oAP": "\/resources\/fixer_hero.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/fixer_hero_white_color.png": {
+		"ft": 32768,
+		"iS": 95538,
+		"oA": 0,
+		"oAP": "\/resources\/fixer_hero_white_color.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/logo.png": {
+		"ft": 32768,
+		"iS": 51983,
+		"oA": 0,
+		"oAP": "\/resources\/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/style-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/style-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
