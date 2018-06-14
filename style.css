@@ -71,3 +71,65 @@ body {
 .faq {
   padding-right: 1.1rem;
 }
+
+.leftContent {
+  padding: 1rem 0 1rem 0;
+}
+
+.leftContent h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  max-width: 21rem;
+  line-height: 2.7rem;
+  letter-spacing: -1.2px;
+  padding: 0 0 0.8rem 0;
+}
+
+.leftContent h3 {
+  max-width: 32.5rem;
+  line-height: 2rem;
+  font-size: 1rem;
+  font-size: 0.96rem;
+  padding: 0 0 1.7rem 0;
+}
+
+.leftContent a {
+  text-decoration: none;
+  display: inline-block;
+  width: 12rem;
+  height: 3.7rem;
+  text-align: center;
+  line-height: 3.8rem;
+  font-size: 0.8rem;
+  border-radius: 4px;
+}
+
+.signUp {
+  color: #ffffff;
+  background-color: #5480ad;
+}
+
+.more {
+  color: #75797e;
+  background-color: #d6dbe3;
+}
+
+.rightContent {
+  max-width: 31.1rem;
+}
+
+.rightContent img {
+  width: 100%;
+}
+
+.topContent {
+  display: flex;
+  margin: 4.2rem auto 0 auto;
+  justify-content: space-evenly;
+}
+
+.topSection {
+  background-image: url("/resources/fixer_hero_white_color.png");
+  padding: 0 0 8.2rem 0;
+}
+
