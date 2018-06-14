@@ -133,3 +133,30 @@ body {
   padding: 0 0 8.2rem 0;
 }
 
+.customerContainer {
+  margin: 0 auto;
+  background-color: #d8e0e9;
+}
+
+.customerBox {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0 auto;
+  width: 59.3rem;
+  padding: 2rem 0;
+}
+
+.customerBox h4 {
+  font-size: 0.9rem;
+  line-height: 2rem;
+}
+
+.logoBox {
+  max-width: 7rem;
+  margin: auto 0;
+}
+
+.logoBox img {
+  width: 100%;
+}
