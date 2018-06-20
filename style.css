@@ -52,6 +52,10 @@ body {
   font-weight: 400;
 }
 
+.topMenu a:hover {
+  text-decoration: underline;
+}
+
 .product a {
   color: #ffffff;
   background-color: #ff6b43;
@@ -105,6 +109,10 @@ body {
   border-radius: 4px;
 }
 
+.leftContent a:hover {
+  text-decoration: underline;
+}
+
 .signUp {
   color: #ffffff;
   background-color: #5480ad;
@@ -131,7 +139,8 @@ body {
 
 .topSection {
   background-image: url("/resources/fixer_hero_white_color.png");
-  padding: 0 0 8.2rem 0;
+  background-size: cover;
+  padding: 0.7rem 0 8.2rem 0;
 }
 
 .customerContainer {
@@ -160,4 +169,179 @@ body {
 
 .logoBox img {
   width: 100%;
+}
+
+.middleSection {
+  background-image: url("/resources/fixer_hero.png");
+  background-size: cover;
+}
+
+.middleContent {
+  max-width: 57.9rem;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 4.7rem 0;
+}
+
+.middleBox {
+  max-width: 28.1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1.2rem 1.6rem 2.1rem 1.6rem;
+  border-radius: 4px;
+}
+
+.contentOne {
+  max-width: 25rem;
+}
+
+.subContent {
+  flex-direction: column;
+  font-weight: 300;
+  color: white;
+  line-height: 1.1rem;
+}
+
+.svgTop {
+  max-width: 4.3rem;
+  max-height: 4.3rem;
+  height: 100%;
+  border: 2px solid white;
+  border-radius: 2.15rem;
+}
+
+.svgTop svg {
+  display: block;
+  fill: white;
+}
+
+.topOne h2 {
+  margin: auto 0;
+  padding: 0 0 0 1.6rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.4px;
+  font-weight: 400;
+  color: white;
+}
+
+.topTwo {
+  color: #ffffff;
+  font-size: 0.95rem;
+  line-height: 1.2rem;
+  padding: 1.6rem 0 1.8rem 0;
+  border-bottom: 2px solid #789bbe;
+  font-weight: 300;
+  letter-spacing: 0.16px;
+}
+
+.trusted {
+  width: 58%;
+  margin: 1rem auto 0 auto;
+}
+
+.developers {
+  width: 41%;
+  margin: 1.3rem auto 0 auto;
+}
+
+.topOne {
+  display: flex;
+}
+
+.contentTwo {
+  max-width: 24.9rem;
+  display: flex;
+  padding: 2.66rem 0 0 0;
+  font-size: 0.85rem;
+}
+
+.svgBox {
+  max-width: 2.5rem;
+  flex-shrink: 0;
+  padding: 0 1.4rem 0 0;
+}
+
+.svgBox svg {
+  width: 100%;
+  fill: white;
+}
+
+.contentText {
+  letter-spacing: 0.3px;
+}
+
+.contentText h3 {
+  font-weight: 400;
+  padding: 0 0 0.5rem 0;
+}
+
+.contentText p {
+  line-height: 17px;
+}
+
+.bottomOne {
+  display: flex;
+  max-width: 63.1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.8rem 0;
+}
+
+.bottomOne h4 {
+  display: block;
+  letter-spacing: 0.16px;
+}
+
+.bottomOne span {
+  text-decoration: underline;
+}
+
+.bottomOne a {
+  display: block;
+  font-size: 0.8rem;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.bottomOne a:hover {
+  text-decoration: underline;
+}
+
+.docs {
+  color: #777c81;
+  background-color: #d5dbe3;
+  padding: 1.5rem 2.1rem;
+}
+
+.api {
+  color: #ffffff;
+  background-color: #ff6b43;
+  padding: 1.5rem 2.1rem;
+}
+
+.anchorBox {
+  display: flex;
+  justify-content: space-between;
+  width: 24.6rem;
+  padding-right: 0.9rem;
+}
+
+.bottomTwo {
+  font-family: "Open Sans", sans-serif;
+  background-color: #ebeff4;
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #6481a7;
+  text-align: center;
+  padding: 7rem 0 1.7rem 0;
+}
+
+.copyrightNotice span {
+  padding: 1rem 18.8%;
+  border-top: 2px solid #d3d7db;
+  letter-spacing: 0.3px;
 }
