@@ -373,12 +373,17 @@ body {
     flex-direction: column;
   }
 
+  .topSection {
+    padding-bottom: 3vw;
+  }
+
   .leftContent {
     margin: 0 auto;
   }
 
   .rightContent {
     margin: 0 auto;
+    padding-top: 3vw;
   }
 
   .leftContent h1 {
