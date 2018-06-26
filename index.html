@@ -5,6 +5,8 @@
   <link rel="stylesheet" href="style-min.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 
 <body>
@@ -15,9 +17,12 @@
           <img src="/resources/logo.png" alt="logo">
         </a>
       </div>
+      <div class="menuToggle">
+        <img src="/resources/menu.svg" alt="menu">
+      </div>
       <div class="topMenu">
         <ul>
-          <li>
+          <li class="pricing">
             <a href="https://fixer.io/product">
               Pricing
             </a>
@@ -47,7 +52,7 @@
     </div>
     <div class="topContent">
       <div class="leftContent">
-        <h1>Foreign exchange rates and currency conversion JSON API</h1>
+        <h1 class="leftHeader">Foreign exchange rates and currency conversion JSON API</h1>
         <h3>Fixer is a simple and lightweight API for
           <br/>current and historical foreign exchange (forex) rates.</h3>
         <a class="signUp" href="https://fixer.io/product">SIGN UP FREE</a>
@@ -62,25 +67,25 @@
     <div class="customerBox">
       <h4>You are in good company:</h4>
       <div class="logoBox">
-        <img src="/resources/cust_kraken.png" alt="kraken">
+        <img class="kraken" src="/resources/cust_kraken.png" alt="kraken">
       </div>
       <div class="logoBox">
-        <img src="/resources/cust_microsoft.png" alt="microsoft">
+        <img class="microsoft" src="/resources/cust_microsoft.png" alt="microsoft">
       </div>
       <div class="logoBox">
-        <img src="/resources/cust_instacart.png" alt="instacart">
+        <img class="instacart" src="/resources/cust_instacart.png" alt="instacart">
       </div>
       <div class="logoBox">
-        <img src="/resources/cust_samsung.png" alt="samsung">
+        <img class="samsung" src="/resources/cust_samsung.png" alt="samsung">
       </div>
       <div class="logoBox">
-        <img src="/resources/cust_bershka.png" alt="bershka">
+        <img class="bershka" src="/resources/cust_bershka.png" alt="bershka">
       </div>
     </div>
   </div>
   <div class="middleSection">
     <div class="middleContent">
-      <div class="middleBox">
+      <div class="middleBox leftBox">
         <div class="contentOne">
           <div class="topOne">
             <div class="svgTop">
@@ -529,7 +534,7 @@
           </div>
         </div>
       </div>
-      <div class="middleBox">
+      <div class="middleBox rightBox">
         <div class="contentOne">
           <div class="topOne">
             <div class="svgTop">
@@ -933,4 +938,7 @@
       <span>Fixer.io is a product built and maintained by apilayer. &copy; Copyright 2018 Fixer.io. All Rights Reserved.</span>
     </div>
   </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
 </body>

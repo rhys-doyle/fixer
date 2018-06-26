@@ -15,8 +15,8 @@ body {
   justify-content: space-between;
   max-width: 71.7rem;
   width: 100%;
-  margin: 0 auto 0 auto;
-  padding: 2.7rem 0 0 0;
+  margin: 2.7rem auto 0 auto;
+  position: relative;
 }
 
 .logo {
@@ -33,15 +33,11 @@ body {
   max-width: 29rem;
   width: 100%;
   margin: auto 0;
-  max-height: 2.25rem;
-  height: 100%;
 }
 
 .topMenu ul {
   display: flex;
   justify-content: space-between;
-  max-height: 2.25rem;
-  height: 100%;
   align-items: center;
 }
 
@@ -150,11 +146,12 @@ body {
 
 .customerBox {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   text-align: center;
   margin: 0 auto;
-  width: 59.3rem;
+  width: 100%;
   padding: 2rem 0;
+  overflow: auto;
 }
 
 .customerBox h4 {
@@ -163,7 +160,7 @@ body {
 }
 
 .logoBox {
-  max-width: 7rem;
+  max-width: 9vw;
   margin: auto 0;
 }
 
@@ -337,11 +334,356 @@ body {
   font-weight: 300;
   color: #6481a7;
   text-align: center;
-  padding: 7rem 0 1.7rem 0;
+  padding: 0 0 1.7rem 0;
+  padding-top: 7rem;
+}
+.copyrightNotice {
+  border-top: 2px solid #d3d7db;
+  max-width: 78.8%;
+  margin: 0 auto;
+  padding: 1rem 0 0 0;
 }
 
 .copyrightNotice span {
-  padding: 1rem 18.8%;
-  border-top: 2px solid #d3d7db;
+  padding: 1rem;
   letter-spacing: 0.3px;
+}
+
+.menuToggle {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .logo {
+    padding: 0 0 0 1rem;
+  }
+
+  .topMenu {
+    padding: 0 1rem 0 0;
+  }
+
+  .leftContent {
+    padding: 0 0 0 1rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .topContent {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .leftContent {
+    margin: 0 auto;
+  }
+
+  .rightContent {
+    margin: 0 auto;
+  }
+
+  .leftContent h1 {
+    margin: 0 auto;
+  }
+
+  br {
+    display: none;
+  }
+
+  .bottomOne h4 {
+    padding-left: 1rem;
+  }
+
+  .copyrightNotice span {
+    font-size: 1.36vw;
+  }
+
+  .bottomTwo {
+    padding-top: 11vw;
+  }
+}
+
+@media (max-width: 930px) {
+  .bottomOne {
+    flex-direction: column;
+  }
+
+  .bottomOne h4 {
+    padding-bottom: 2rem;
+  }
+
+  .customerContainer {
+    position: relative;
+  }
+
+  .customerBox {
+    /* position: relative; */
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .customerBox h4 {
+    padding: 0 0 0 1rem;
+  }
+
+  .logoBox {
+    z-index: 100;
+    position: absolute;
+    left: calc(0.3 * (100% - 225px) + 225px);
+    max-width: calc(0.4 * (100% - 225px));
+  }
+
+  .logoBox img:not(.kraken) {
+    opacity: 0;
+  }
+
+  .kraken {
+    animation-name: fadeInFadeOut;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  .microsoft {
+    animation-name: fadeInFadeOut;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 6s;
+  }
+
+  .instacart {
+    animation-name: fadeInFadeOut;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 12s;
+  }
+
+  .samsung {
+    animation-name: fadeInFadeOut;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 18s;
+  }
+
+  .bershka {
+    animation-name: fadeInFadeOut;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 24s;
+  }
+
+  @keyframes fadeInFadeOut {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    17% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .middleContent {
+    flex-direction: column;
+    max-width: none;
+    align-items: center;
+  }
+
+  .rightBox {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .topMenu ul {
+    flex-direction: column;
+  }
+
+  .topMenu li {
+    padding: 0;
+    text-align: left;
+    width: 100%;
+  }
+
+  .topMenu {
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    top: 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .login a {
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .topMenu a {
+    display: block;
+    padding: 0.7rem 0 0.7rem 0.7rem;
+    width: 100%;
+    color: white;
+    border-radius: 0;
+    box-sizing: border-box;
+    font-size: 0.6rem;
+  }
+
+  .pricing a {
+    background: linear-gradient(
+      to right,
+      rgba(84, 128, 173, 1) 0%,
+      transparent 100%
+    );
+  }
+
+  .documentation a {
+    background: linear-gradient(
+      to right,
+      rgba(84, 128, 173, 1) 0%,
+      transparent 100%
+    );
+  }
+
+  .faq a {
+    background: linear-gradient(
+      to right,
+      rgba(84, 128, 173, 1) 0%,
+      transparent 100%
+    );
+  }
+
+  .product a {
+    background: linear-gradient(to right, #ff6b43 0%, transparent 100%);
+    color: black;
+  }
+
+  .login a {
+    background: linear-gradient(to right, #d6dbe3 0%, transparent 100%);
+    color: black;
+  }
+
+  .menuToggle {
+    margin: 0.5rem 1rem 0 0;
+    display: block;
+    cursor: pointer;
+  }
+
+  .customerBox {
+    position: relative;
+    justify-content: space-between;
+  }
+
+  .customerBox h4 {
+    padding: 0 0 0 1rem;
+  }
+
+  .logoBox {
+    z-index: 100;
+    position: absolute;
+    left: calc(0.25 * (100% - 225px) + 225px);
+    max-width: calc(0.5 * (100% - 225px));
+  }
+
+  .logoBox img:not(.kraken) {
+    opacity: 0;
+  }
+
+  .kraken {
+    animation-name: fadeInFadeOut;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  .microsoft {
+    animation-name: fadeInFadeOut;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 6s;
+  }
+
+  .instacart {
+    animation-name: fadeInFadeOut;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 12s;
+  }
+
+  .samsung {
+    animation-name: fadeInFadeOut;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 18s;
+  }
+
+  .bershka {
+    animation-name: fadeInFadeOut;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 24s;
+  }
+
+  .bottomOne h4 {
+    padding-right: 1rem;
+    font-size: 2.4vw;
+  }
+
+  .anchorBox {
+    padding: 0 1.5rem;
+  }
+
+  .leftContent {
+    padding-right: 1rem;
+  }
+
+  .leftContent h1 {
+    font-size: 3.6vw;
+  }
+
+  .leftContent h3 {
+    font-size: 2.8vw;
+  }
+
+  .topMenu {
+    display: none;
+  }
+
+  @keyframes fadeInFadeOut {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    17% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+}
+
+@media (min-width: 641px) {
+  .topMenu {
+    display: block !important;
+  }
+}
+
+@media (max-width: 440px) {
+  .more {
+    margin-top: 1rem;
+  }
 }
